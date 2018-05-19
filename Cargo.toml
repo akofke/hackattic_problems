@@ -1,3 +1,6 @@
 [workspace]
 
-members = ["help_me_unpack"]
+members = [
+    "help_me_unpack",
+    "mini_miner"
+]
