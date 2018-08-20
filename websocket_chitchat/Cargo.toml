@@ -1,0 +1,19 @@
+[package]
+name = "websocket_chitchat"
+version = "0.1.0"
+authors = ["Alex Kofke <akofke@gmail.com>"]
+
+[dependencies]
+reqwest = "0.8.5"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+regex = "1"
+lazy_static = "1.1.0"
+
+
+[dependencies.ws]
+version = "*"
+git = "https://github.com/housleyjk/ws-rs"
+features = ["ssl"]
+

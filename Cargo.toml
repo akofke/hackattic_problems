@@ -2,5 +2,6 @@
 
 members = [
     "help_me_unpack",
-    "mini_miner"
+    "mini_miner",
+    "websocket_chitchat"
 ]
